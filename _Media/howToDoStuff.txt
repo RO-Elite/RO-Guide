@@ -1,0 +1,41 @@
+ssh dk22sity@clientssh-arm.rbg.informatik.tu-darmstadt.de
+
+Manual:
+man "Befehlname"
+
+Löschen:
+rm "Dateiname"
+rm -rf "Ordnername"/
+
+Text Editoren
+nano oder auch vim
+nano hello.c
+
+Dateiops
+cp - kopiert Dateien und Verzeichnisse
+rm - löscht Dateien und Verzeichnisse
+mv - benennt Dateien um
+
+PROGRAMME AUSFÜHREN
+AUF DEM SERVER
+C -> Assembler
+arm-linux-gnueabihf-gcc -S Dateiname.c
+Danach:
+arm-linux-gnueabihf-as -o first.o first.s
+arm-linux-gnueabihf-gcc -o first first.o
+AUF DEM MAC
+gcc -o hello hello.c        (compilieren)
+./hello ; echo $?           (Ausführen der Executables)
+
+
+dateien holen via (Source - Ziel)
+scp -r dk22sity@clientssh-arm.rbg.informatik.tu-darmstadt.de:MeinOrdner Downloads
+verschicken
+scp -r Downloads dk22sity@clientssh-arm.rbg.informatik.tu-darmstadt.de:MeinOrdner
+
+
+
+
+
+
+kein desktop environment nur window manager bspb

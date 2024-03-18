@@ -1,0 +1,19 @@
+
+// NUR BEIM ARM SERVER!
+
+// macht .s zur binary
+roas() {
+  file="$1"
+  bname=$(basename -s .s "${file}")
+  arm-linux-gnueabihf-as -o "${bname}".o "${file}"
+  arm-linux-gnueabihf-gcc -o "${bname}" "${bname}".o
+}
+
+// macht .c zur binary
+roc() {
+  file="$1"
+  bname=$(basename -s .c "${file}")
+  arm-linux-gnueabihf-gcc -S -o "${bname}".s "${file}"
+  arm-linux-gnueabihf-as -o "${bname}".o "${bname}".s
+  arm-linux-gnueabihf-gcc -o "${bname}" "${bname}".o
+}
