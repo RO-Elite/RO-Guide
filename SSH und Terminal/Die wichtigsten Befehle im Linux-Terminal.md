@@ -6,21 +6,22 @@ Es gibt viele verschiedene Shells, die bekannteste ist [Bash](https://www.gnu.or
 
 Hier erstmal ein Cheatsheet:
 
-| Befehl    | Bedeutung                                             | Syntaxbeispiel     | Beispielhaftes Ergebnis                                                                                                                  |
-| --------- | ----------------------------------------------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| ls        | anzeigen welche Dateien im aktuellen Ordner sind      | ls                 | Downloads Documents meineDate.txt                                                                                                        |
-| ls -a     | auch versteckte dateien anzeigen                      | ls -a              | Downloads .versteckteDatei.txt .bashrc                                                                                                   |
-| pwd       | Zeige den Ort an, an dem wir uns aktuell befinden     | pwd                | /Users/TimoKoch                                                                                                                          |
-| cd        | change Directory - gehe in den Ordner                 | cd Downloads       | (Wir sind jetzt im Download Ordner)                                                                                                      |
-| cd ..     | Gehe einen Ordner nach Oben                           | cd ..              | (Wir sind jetzt wieder im Elternordner)                                                                                                  |
-| touch     | Erstelle eine Datei                                   | touch meinText.txt | Jetzt existiert eine Textdatei, die man bearbeiten kann                                                                                  |
-| nano/nvim | bearbeite eine Textdatei (txt, c-code, assembly code) | nano code.c        | Jetzt ist das Dokument geöffnet und man kann die Datei mit der Tastatur bearbeiten. Das sieht dann so aus:<br>[[nano-3.2-826321080.png]] |
-|           |                                                       |                    |                                                                                                                                          |
-
+| Befehl    | Bedeutung                                                                                                         | Syntaxbeispiel                         | Beispielhaftes Ergebnis                                                                                                                  |
+| --------- | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| ls        | anzeigen, welche Dateien im aktuellen Ordner existieren                                                           | ls                                     | Downloads Documents meineDate.txt                                                                                                        |
+| ls -a     | auch versteckte Dateien anzeigen                                                                                  | ls -a                                  | Downloads .versteckteDatei.txt .bashrc                                                                                                   |
+| pwd       | Zeige den Ort an, an dem wir uns aktuell befinden                                                                 | pwd                                    | /Users/TimoKoch                                                                                                                          |
+| cd        | change Directory - gehe in den genannten Ordner. nur cd bringt dich zurück in deinen Heimatordner, auch ~ genannt | cd Downloads                           | Wir sind jetzt im Download Ordner.                                                                                                       |
+| cd ..     | Gehe einen Ordner nach Oben                                                                                       | cd ..                                  | Wir sind jetzt wieder im Elternordner.                                                                                                   |
+| touch     | Erstelle eine Datei                                                                                               | touch meinText.txt                     | Jetzt existiert eine Textdatei, die man bearbeiten kann.                                                                                 |
+| nano/nvim | bearbeite eine Textdatei (txt, c-code, assembly code)                                                             | nano code.c                            | Jetzt ist das Dokument geöffnet und man kann die Datei mit der Tastatur bearbeiten. Das sieht dann so aus:<br>[[nano-3.2-826321080.png]] |
+| cp        | Datei kopieren von einem ort an den anderen                                                                       | cp meineDatei.c Downloads/meineDatei.c | die Datei meineDatei.c wurde vom aktuellen ordner in den Ordner mit dem Pfad Downloads/ kopiert.                                         |
+| mv        | Datei verschieben von einem ort an den anderen                                                                    | mv meineDatei.c Downloads/meineDatei.c | die Datei meineDatei.c wurde vom aktuellen ordner in den Ordner mit dem Pfad Downloads/ verschoben.                                      |
+| man       | eine Erklärung für einen Befehl anzeigen lassen                                                                   | man cp                                 | Es erscheint eine Erklärung, wie man den Befehl benutzt, Im Zweifelsfall einfach ChatGPT fragen.                                         |
 ## Nano vs. NVim
 Es gibt viele Texteditoren fürs Terminal, aber für Newbies ist Nano der einfachste. Einfach mit `nano meinText.c` die Datei öffnen, die Datei bearbeiten, und dann mit Ctrl/Cmd + o die Datei schreiben, und mit Ctrl/Cmd + x die Datei schließen. 
 
-TODO DOMINIK HIER WEITER SCHRIEBEN
+Vim, oder die heutige Version NVim 
 
 [[howToDoStuff.txt]]
 

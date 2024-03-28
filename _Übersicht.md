@@ -1,6 +1,6 @@
 
 > [!info] 
-> Tags: #todo, #todo-dominik, #todo-omid, #tipps, #bash, #VL, #Übung 
+> Tags: #todo, #todo-dominik, #todo-omid, #guide, #tipps, #bash, #VL, #übung 
 ## ARM32 Assembly
 - [[ARM32 Assembly]]
 - [[Passende Entwicklungsumgebungen]]
