@@ -6,17 +6,21 @@ Es gibt viele verschiedene Shells, die bekannteste ist [Bash](https://www.gnu.or
 
 Hier erstmal ein Cheatsheet:
 
-| Befehl    | Bedeutung                                         | Syntaxbeispiel     | Beispielhaftes Ergebnis                                 |
-| --------- | ------------------------------------------------- | ------------------ | ------------------------------------------------------- |
-| ls        | anzeigen welche Dateien im aktuellen Ordner sind  | ls                 | Downloads Documents meineDate.txt                       |
-| ls -a     | auch versteckte dateien anzeigen                  | ls -a              | Downloads .versteckteDatei.txt .bashrc                  |
-| pwd       | Zeige den Ort an, an dem wir uns aktuell befinden | pwd                | /Users/TimoKoch                                         |
-| cd        | change Directory - gehe in den Ordner             | cd Downloads       | (Wir sind jetzt im Download Ordner)                     |
-| cd ..     | Gehe einen Ordner nach Oben                       | cd ..              | (Wir sind jetzt wieder im Elternordner)                 |
-| touch     | Erstelle eine Datei                               | touch meinText.txt | Jetzt existiert eine Textdatei, die man bearbeiten kann |
-| nano/nvim | bearbeite eine Textdatei                          |                    |                                                         |
+| Befehl    | Bedeutung                                             | Syntaxbeispiel     | Beispielhaftes Ergebnis                                                                                                                  |
+| --------- | ----------------------------------------------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| ls        | anzeigen welche Dateien im aktuellen Ordner sind      | ls                 | Downloads Documents meineDate.txt                                                                                                        |
+| ls -a     | auch versteckte dateien anzeigen                      | ls -a              | Downloads .versteckteDatei.txt .bashrc                                                                                                   |
+| pwd       | Zeige den Ort an, an dem wir uns aktuell befinden     | pwd                | /Users/TimoKoch                                                                                                                          |
+| cd        | change Directory - gehe in den Ordner                 | cd Downloads       | (Wir sind jetzt im Download Ordner)                                                                                                      |
+| cd ..     | Gehe einen Ordner nach Oben                           | cd ..              | (Wir sind jetzt wieder im Elternordner)                                                                                                  |
+| touch     | Erstelle eine Datei                                   | touch meinText.txt | Jetzt existiert eine Textdatei, die man bearbeiten kann                                                                                  |
+| nano/nvim | bearbeite eine Textdatei (txt, c-code, assembly code) | nano code.c        | Jetzt ist das Dokument geöffnet und man kann die Datei mit der Tastatur bearbeiten. Das sieht dann so aus:<br>[[nano-3.2-826321080.png]] |
+|           |                                                       |                    |                                                                                                                                          |
 
+## Nano vs. NVim
+Es gibt viele Texteditoren fürs Terminal, aber für Newbies ist Nano der einfachste. Einfach mit `nano meinText.c` die Datei öffnen, die Datei bearbeiten, und dann mit Ctrl/Cmd + o die Datei schreiben, und mit Ctrl/Cmd + x die Datei schließen. 
 
+TODO DOMINIK HIER WEITER SCHRIEBEN
 
 [[howToDoStuff.txt]]
 
