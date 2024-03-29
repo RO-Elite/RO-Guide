@@ -1,18 +1,24 @@
+
 > [!info] 
-> Tags: #todo, #todo-dominik, #todo-omid, #guide, #tipps, #bash, #VL, #übung 
+> Alle Tags zum Stöbern:
+> #guide #tipps #bash #VL #übung 
+> #todo #todo-dominik #todo-omid
 ## ARM32 Assembly
-- [[ARM32 Assembly]]
+- [[_ARM32 Assembly Übersicht (wahrscheinlich unnötig)]]
 - [[Passende Entwicklungsumgebungen]]
 - [[printf und scanf in assembly]]
 ## SSH und Terminal
 - [[Mit dem SSH ARM-Server der TU verbinden]]
+	- [[SSH-Key erstellen]]
+- [[Linux Terminal]]
+	- [[Bash Cheatsheet]]
+	- [[Code Kompilieren und ausführen]]
 - [[Dateiaustausch mit dem Server]]
-- [[Die wichtigsten Befehle im Linux-Terminal]]
 ## Tipps und Tricks
-- [[Termius]]
-## VL Zusammenfassungen
-[[VL 1]]
+- [[Termius|Termius statt Putty!]]
 ## Übungserklärungen
 [[Übung 1]]
 [[Übung 2]]
 [[Übung 3]]
+## VL Zusammenfassungen
+[[VL 1]]

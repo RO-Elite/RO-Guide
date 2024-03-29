@@ -5,7 +5,7 @@
 ```shell
 ssh-keygen -b 4096 -t rsa
 ```
-Dateinamen und Passphrase festlegen oder durch ENTER drücken skippen
+Dateinamen und Passphrase festlegen oder durch `ENTER` drücken skippen
 3. Public Key ausgeben lassen
 ```shell
 cat DATEINAME.pub
@@ -13,7 +13,6 @@ cat DATEINAME.pub
 Diesen kopieren.
 4. [Email anfordern](https://support.rbg.informatik.tu-darmstadt.de/), um einen Link zu bekommen. Dort wird der Public Key eingefügt.
 ![[Pasted image 20240328153730.png]]
-
 # Für Github
 1. Terminal öffnen/ Git Bash unter Windows
 2. SSH-Key generieren
