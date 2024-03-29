@@ -4,13 +4,13 @@
 > #guide #tipps #bash #VL #übung 
 > #todo #todo-dominik #todo-omid
 ## ARM32 Assembly
-- [[_ARM32 Assembly Übersicht (wahrscheinlich unnötig)]]
 - [[Passende Entwicklungsumgebungen]]
-- [[printf und scanf in assembly]]
+- [[Wichtigste Befehle auf einen Blick]]
+- [[printf und scanf]]
 ## SSH und Terminal
-- [[Mit dem SSH ARM-Server der TU verbinden]]
+- [[Mit dem SSH ARM-Server der TU verbinden]] 
 	- [[SSH-Key erstellen]]
-- [[Linux Terminal]]
+- [[Mit dem Server interagieren]]
 	- [[Bash Cheatsheet]]
 	- [[Code Kompilieren und ausführen]]
 - [[Dateiaustausch mit dem Server]]

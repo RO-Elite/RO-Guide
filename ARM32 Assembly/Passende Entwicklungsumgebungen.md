@@ -1,5 +1,5 @@
 #todo-omid  
-## 1. Nano vs. Vim
+## 1. Direkt im Terminal (Nano vs. Vim)
 Es gibt viele Text/Code-Editoren direkt im Terminal, aber für Newbies ist Nano der einfachste. Mit `nano meinText.c` die Datei öffnen, die Datei bearbeiten, und dann mit Ctrl/Cmd + o die Datei schreiben, und mit Ctrl/Cmd + x die Datei schließen. 
 Vim, oder die modernere Version Nvim funktioniert ein bisschen anders als ein moderner grafischer Text-Editor, kann aber mit ein bisschen Übung deutlich schneller sein.
 ## 2. VS Code Extension
