@@ -1,4 +1,3 @@
-
 > [!info] 
 > Tags: #todo, #todo-dominik, #todo-omid, #guide, #tipps, #bash, #VL, #übung 
 ## ARM32 Assembly

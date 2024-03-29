@@ -4,8 +4,6 @@ Vorraussetzungen:
 - Termius installiert
 - Server in Termius eingerichtet
 
-
-
 1. SFTP auswählen
 ![[Pasted image 20240328143040.png]]
 2. Ersten Host wählen
@@ -16,9 +14,7 @@ Vorraussetzungen:
 ![[Pasted image 20240328143529.png]]
 5. Dateien per Drag and Drop bewegen
 > [!danger] Quota
-> [Das User Quota liegt bei 1 GB!](https://support.rbg.informatik.tu-darmstadt.de/wiki/de/doku/computerhilfe/quota)
-
-
+> [Die User Disk Quota liegt bei 1 GB!](https://support.rbg.informatik.tu-darmstadt.de/wiki/de/doku/computerhilfe/quota)
 
 ## 2. Github
 1. [[SSH-Key erstellen]]

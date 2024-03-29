@@ -1,20 +1,6 @@
 ssh dk22sity@clientssh-arm.rbg.informatik.tu-darmstadt.de
 
-Manual:
-man "Befehlname"
 
-Löschen:
-rm "Dateiname"
-rm -rf "Ordnername"/
-
-Text Editoren
-nano oder auch vim
-nano hello.c
-
-Dateiops
-cp - kopiert Dateien und Verzeichnisse
-rm - löscht Dateien und Verzeichnisse
-mv - benennt Dateien um
 
 PROGRAMME AUSFÜHREN
 AUF DEM SERVER
