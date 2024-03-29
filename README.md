@@ -1,5 +1,5 @@
 # RO-Guide
-Erklärungen, Lösungen und Tipps zum Modul "Rechnerorganisation" an der TU Darmstadt. Zuerst erstellt SoSe24.
+Zusammenfassungen, Erklärungen, sowie Tipps und Tricks zum Modul "Rechnerorganisation" an der TU Darmstadt. Zuerst erstellt SoSe24.
 ## Wie öffne ich dieses Guide?
 Dieses Guide ist ein **Obsidian Vault**. Das bedeutet, dass der Ordner, wenn er geklont wurde, einfach in Obsidian geöffnet werden kann.
 1. (Falls noch nicht geschehen) [Obsidian installieren](https://obsidian.md).
