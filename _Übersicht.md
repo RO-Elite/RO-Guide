@@ -4,7 +4,7 @@
 > #guide #tipps #bash #VL #übung 
 > #todo #todo-dominik #todo-omid
 ## ARM32 Assembly
-- [[Passende Entwicklungsumgebungen]]
+- [[Empfohlene Entwicklungsumgebungen]]
 - [[Wichtigste Befehle auf einen Blick]]
 - [[printf und scanf]]
 ## SSH und Terminal

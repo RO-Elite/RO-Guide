@@ -26,6 +26,18 @@ arm-linux-gnueabihf-gcc -o meineDatei meineDatei.o
 arm-linux-gnueabihf-gcc -o meineDatei meineDatei.c
 ```
 ### Shortcut für C/Assembly -> Binary
-In eurem Benutzer-Home-Ordner, genannt `~`, gibt es eine Datei namens `.bashrc`. In diese könnt ihr zwei Methoden legen, die 
-[[profile.txt]]
-#todo
+Im Benutzer-Ordner, genannt `~`, gibt es eine Datei namens `.bashrc`. Vielleicht ist sie auch leer.
+Wir haben euch eine beispielhafte .bashrc, umbenannt als bashrc.txt [[bashrc.txt|hier]] hinterlegt.
+Mit dieser .bashrc lässt sich mit einem kurzen Befehl code zur ausführbaren Binary machen.
+1. die .bashrc herunterladen und in den Benutzerordner tun.
+2. mit `exec bash` die shell neu starten.
+3. 
+C -> Binary
+```shell
+roas meinCode.s
+```
+Assembly -> Binary
+```shell
+roc meinCode.c
+````
+4. die entstandene Binary meinCode ausführen (siehe [[Code Kompilieren und ausführen#Ausführen der Binary und Ausgeben von r0|hier]]).
