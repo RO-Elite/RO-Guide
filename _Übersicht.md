@@ -16,9 +16,3 @@
 - [[Dateiaustausch mit dem Server]]
 ## Tipps und Tricks
 - [[Termius|Termius statt Putty!]]
-## Übungserklärungen
-[[Übung 1]]
-[[Übung 2]]
-[[Übung 3]]
-## VL Zusammenfassungen
-[[VL 1]]
