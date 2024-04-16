@@ -1,0 +1,2 @@
+Der Key kann bei [[Termius statt Putty!|Termius]] einfach in Einstellungen > Keychain hinterlegt werden.
+Bei Nutzung ohne Terminal muss der Private-Key noch dem "Agent" hinzugefügt werden, siehe [[SSH-Key erstellen#(Für Github)]].

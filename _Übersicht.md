@@ -6,13 +6,17 @@
 ## ARM32 Assembly
 - [[Empfohlene Entwicklungsumgebungen]]
 - [[Wichtigste Befehle auf einen Blick]]
+- ...
 - [[printf und scanf]]
 ## SSH und Terminal
-- [[Mit dem SSH ARM-Server der TU verbinden]] 
+- [[Mit dem TU-Server via SSH verbinden]] 
 	- [[SSH-Key erstellen]]
-- [[Mit dem Server interagieren]]
+	- [[Public SSH-Key beim TU-Server hinterlegen]]
+	- [[SHH Key beim eigenen System hinterlegen]]
+	- [[Verbindung mit der Kommandozeile herstellen]]
+- [[Mit der Kommandozeile interagieren]]
 	- [[Bash Cheatsheet]]
 	- [[Code Kompilieren und ausführen]]
 - [[Dateiaustausch mit dem Server]]
 ## Tipps und Tricks
-- [[Termius|Termius statt Putty!]]
+- [[Termius statt Putty!]]

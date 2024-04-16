@@ -1,19 +1,24 @@
 #guide
-# Für den ARM-Server
-1. Terminal öffnen/ Git Bash unter Windows
+Ein SSH Key besteht immer aus dem public und dem private key. 
+Public key und private key gehören zueinander; Das heißt, sie werden gleichzeitig erzeugt und normalerweise auch am gleichen Ort gespeichert. Der public Key wird beim zu kontaktierenden Server hinterlegt, der private key wird nie mit anderen Systemen geteilt und ist nur auf dem eigenen System hinterlegt.
+# Für den SSH-Server der TU Darmstadt
+## In Termius
+Termius kann keys schnell und einfach selbst erstellen.
+![[Pasted image 20240416141933.png]]
+## Im Terminal
+1. Terminal öffnen / Git-Bash in Windows
 2. Key generieren
 ```shell
 ssh-keygen -b 4096 -t rsa
 ```
-Dateinamen und Passphrase festlegen oder durch `ENTER` drücken skippen
+Dateinamen und Passphrase festlegen oder durch `ENTER` drücken überspringen
 3. Public Key ausgeben lassen
 ```shell
 cat DATEINAME.pub
 ```
 Diesen kopieren.
-4. [Email anfordern](https://support.rbg.informatik.tu-darmstadt.de/), um einen Link zu bekommen. Dort wird der Public Key eingefügt.
-![[Pasted image 20240328153730.png]]
-# Für Github
+5. [[Public SSH-Key beim TU-Server hinterlegen]]
+# (Für Github)
 1. Terminal öffnen/ Git Bash unter Windows
 2. SSH-Key generieren
 ```shell

@@ -5,7 +5,7 @@
 
 ## 1. FTP in Termius
 Vorraussetzungen:
-- [[Termius]] installiert
+- [[Termius statt Putty!|Termius]] installiert
 - Server in Termius erstmals eingerichtet
 
 1. SFTP auswählen
