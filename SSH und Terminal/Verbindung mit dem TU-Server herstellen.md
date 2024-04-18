@@ -1,8 +1,8 @@
 #guide 
-Die Verbindung lässt sich unter Windows am besten mit einem entsprechenden SSH-client wie Putty oder besser: Mit [[Termius statt Putty!|Termius]] herstellen.
+Die Verbindung lässt sich unter Windows am besten mit einem entsprechenden SSH-client wie PuTTY oder besser: Mit [[Termius statt PuTTY!|Termius]] herstellen.
 MacOS und die meisten Linux-Distros können das auch direkt im Terminal.
 # Windows
-[[Termius statt Putty!]]
+[[Termius statt PuTTY!]]
 # Linux & MacOS
 Entweder über Termius, oder direkt im Terminal:
 ```shell

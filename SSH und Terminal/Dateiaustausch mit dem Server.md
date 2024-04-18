@@ -1,11 +1,10 @@
  #tipps
 
 > [!danger] Platzlimitierung
-> [Die User Disk Quota liegt bei 1 GB, also schiebt da nicht tonnenweise eigene Inhalte hin. Der Assembly Code ist nur wenige KB groß.](https://support.rbg.informatik.tu-darmstadt.de/wiki/de/doku/computerhilfe/quota)
-
+> [Die User Disk Quota also der maximal verfügbare Speicherlatz pro Nutzer liegt bei einem GB, also schiebt da nicht tonnenweise eigene Inhalte hin. Der Assembly Code ist nur wenige KB groß.](https://support.rbg.informatik.tu-darmstadt.de/wiki/de/doku/computerhilfe/quota)
 ## 1. FTP in Termius
 Vorraussetzungen:
-- [[Termius statt Putty!|Termius]] installiert
+- [[Termius statt PuTTY!|Termius]] installiert
 - Server in Termius erstmals eingerichtet
 
 1. SFTP auswählen
@@ -27,7 +26,6 @@ Dateien empfangen:
 scp -r [TU-ID]@clientssh-arm.rbg.informatik.tu-darmstadt.de:MeinRemoteOrdner MeinLokalerOrdner
 ```
 ## 3. Github
-1. [[SSH-Key erstellen]]
-2. Key auf Github hochladen
+Die notwendigen Git-Befehle fürs Terminal werden wir hier nicht nochmal durchgehen, beachtet allerdings, dass ihr für das Authentifizieren bei GitHub statt dem Passwort einen sogenannten ["Classic Token"](https://github.com/settings/tokens) erstellen müsst, den ihr dann immer statt dem Passwort eingebt.
 ## 4. Copy Pasta
 Den Code einfach copy pasten

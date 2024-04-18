@@ -5,4 +5,3 @@
 
 3. Den Link in der angehängten Mail öffnen und den Public Key hinterlegen.
 ![[Pasted image 20240328153730.png]]
-[[Verbindung mit der Kommandozeile herstellen|Der Zugang ist jetzt freigegeben.]]
