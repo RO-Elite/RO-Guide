@@ -2,6 +2,9 @@
 
 ## Benutzung
 
+**Warnung**: 
+Nicht verwenden zusammen mit scanf oder anderen funktionen die user interaktion benötigen! 
+
 ### Assembler:
 
 ```
