@@ -21,6 +21,13 @@ arm-linux-gnueabihf-gcc -o meineDatei meineDatei.o
 ```shell
 ./meineDatei; echo $?
 ```
+#### Einrichten der Shortcuts
+```shell
+cd
+curl https://raw.githubusercontent.com/RO-Elite/RO-Guide/master/_Media/bashrc.txt >> .bashrc
+curl https://raw.githubusercontent.com/RO-Elite/RO-Guide/master/_Media/bash_profile.txt >> .bash_profile
+```
+
 #### Shortcut: C -> Binary
 ```shell
 arm-linux-gnueabihf-gcc -o meineDatei meineDatei.c
@@ -40,4 +47,5 @@ Assembly -> Binary
 ```shell
 roc meinCode.c
 ````
+
 4. die entstandene Binary meinCode ausführen (siehe [[Code Kompilieren und ausführen#Ausführen der Binary und Ausgeben von r0|hier]]).
