@@ -21,13 +21,6 @@ arm-linux-gnueabihf-gcc -o meineDatei meineDatei.o
 ```shell
 ./meineDatei; echo $?
 ```
-#### Einrichten der Shortcuts
-```shell
-cd &&
-curl https://raw.githubusercontent.com/RO-Elite/RO-Guide/master/_Media/bashrc.txt >> .bashrc &&
-echo "source ~/.bashrc" >> ~/.bash_profile &&
-source .bashrc
-```
 
 #### Shortcut: C -> Binary
 ```shell
@@ -37,9 +30,12 @@ arm-linux-gnueabihf-gcc -o meineDatei meineDatei.c
 Im Benutzer-Ordner, genannt `~`, gibt es eine Datei namens `.bashrc`. Vielleicht ist sie auch leer.
 Wir haben euch eine beispielhafte .bashrc, umbenannt als bashrc.txt [[bashrc.txt|hier]] hinterlegt.
 Mit dieser .bashrc lässt sich mit einem kurzen Befehl code zur ausführbaren Binary machen.
-1. die .bashrc herunterladen und in den Benutzerordner tun.
-2. mit `exec bash` die shell neu starten.
-3. 
+```shell
+cd &&
+curl https://raw.githubusercontent.com/RO-Elite/RO-Guide/master/_Media/bashrc.txt >> .bashrc &&
+echo "source ~/.bashrc" >> ~/.bash_profile &&
+source .bashrc
+```
 C -> Binary
 ```shell
 roas meinCode.s
