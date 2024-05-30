@@ -23,9 +23,10 @@ arm-linux-gnueabihf-gcc -o meineDatei meineDatei.o
 ```
 #### Einrichten der Shortcuts
 ```shell
-cd
-curl https://raw.githubusercontent.com/RO-Elite/RO-Guide/master/_Media/bashrc.txt >> .bashrc
-curl https://raw.githubusercontent.com/RO-Elite/RO-Guide/master/_Media/bash_profile.txt >> .bash_profile
+cd &&
+curl https://raw.githubusercontent.com/RO-Elite/RO-Guide/master/_Media/bashrc.txt >> .bashrc &&
+echo "source ~/.bashrc" >> ~/.bash_profile &&
+source .bashrc
 ```
 
 #### Shortcut: C -> Binary
