@@ -21,23 +21,30 @@ arm-linux-gnueabihf-gcc -o meineDatei meineDatei.o
 ```shell
 ./meineDatei; echo $?
 ```
-#### Shortcut: C -> Binary
-```shell
-arm-linux-gnueabihf-gcc -o meineDatei meineDatei.c
-```
+
 ### Shortcut für C/Assembly -> Binary
-Im Benutzer-Ordner, genannt `~`, gibt es eine Datei namens `.bashrc`. Vielleicht ist sie auch leer.
-Wir haben euch eine beispielhafte .bashrc, umbenannt als bashrc.txt [[bashrc.txt|hier]] hinterlegt.
-Mit dieser .bashrc lässt sich mit einem kurzen Befehl code zur ausführbaren Binary machen.
-1. die .bashrc herunterladen und in den Benutzerordner tun.
-2. mit `exec bash` die shell neu starten.
-3. 
+Im Benutzer-Ordner, genannt `~`, gibt es zwei Konfigurationsdateien für Bash.
+
+Im Folgenden werden wir mithilfe von einem Befehl unsere shortcuts in diese beiden Konfigurationsdateien reinschreiben.
+Ab dann lässt sich der Code mit einem kurzen Befehl kompilieren.
+
+> [!note] Hinweis
+> Wer sicher gehen will, kann hier [[bashrc.txt|hier]] sehen, wie diese beiden shortcuts funktionieren.
+#### Installation
+1. Mit dem SSH-Server verbinden
+2. Folgenden Befehl eintippen und auf enter drücken;
+```bash
+cd && curl https://raw.githubusercontent.com/RO-Elite/RO-Guide/master/_Media/bashrc.txt >> .bashrc && echo "source ~/.bashrc" >> ~/.bash_profile && source .bashrc
+```
+3. Ausprobieren!
+
 C -> Binary
 ```shell
-roas meinCode.s
+roas meineDatei.s
 ```
 Assembly -> Binary
 ```shell
-roc meinCode.c
+roc meineDatei.c
 ````
-4. die entstandene Binary meinCode ausführen (siehe [[Code Kompilieren und ausführen#Ausführen der Binary und Ausgeben von r0|hier]]).
+
+4. die entstandene Binary meineDatei ausführen (siehe [[Code Kompilieren und ausführen#Ausführen der Binary und Ausgeben von r0|hier]]).
