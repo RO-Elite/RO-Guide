@@ -12,9 +12,10 @@ Mehr Details unter https://termius.com/pricing
 ## Linux 
 Termius hat 
 - ein .deb Package auf der [Website](https://termius.com/free-ssh-client-for-linux) (Debian, Ubuntu und angehörige)
-- ein Snap Package im [Snap Store](https://snapcraft.io/termius-app)
-- und ein Package im [AUR](https://aur.archlinux.org/packages/termius).  (community-maintained)
-Leider kein Flatpak oder .rpm Package. (Stand April 2024)
+- ein Snap Package im [Snap Store](https://snapcraft.io/termius-app) 
+- ein Package im [AUR](https://aur.archlinux.org/packages/termius).  (community-maintained)
+- und ein [Nix-Package](https://search.nixos.org/packages) (community-maintaned)
+Leider kein Flatpak oder .rpm Package. (Stand Juli 2024)
 ## MacOS
 Über die [Website](https://termius.com/free-ssh-client-for-mac-os) (Intel & Apple Silicon) oder via [Homebrew](https://formulae.brew.sh/cask/termius).
 > [!danger]  Achtung
