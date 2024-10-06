@@ -4,17 +4,17 @@
 > [Die User Disk Quota also der maximal verfügbare Speicherlatz pro Nutzer liegt bei einem GB, also schiebt da nicht tonnenweise eigene Inhalte hin. Der Assembly Code ist nur wenige KB groß.](https://support.rbg.informatik.tu-darmstadt.de/wiki/de/doku/computerhilfe/quota)
 ## 1. FTP in Termius
 Vorraussetzungen:
-- [[Termius statt PuTTY!|Termius]] installiert
+- [Termius](Termius%20statt%20PuTTY!.md) installiert
 - Server in Termius erstmals eingerichtet
 
 1. SFTP auswählen
-![[Pasted image 20240328143040.png]]
+![Pasted image 20240328143040](Pasted%20image%2020240328143040.png)
 2. Ersten Host wählen
-![[Pasted image 20240328143200.png]]
+![Pasted image 20240328143200](Pasted%20image%2020240328143200.png)
 3. Eigenen Rechner auswählen
-![[Pasted image 20240328143408.png]]
+![Pasted image 20240328143408](Pasted%20image%2020240328143408.png)
 4. Server auswählen
-![[Pasted image 20240328143529.png]]
+![Pasted image 20240328143529](Pasted%20image%2020240328143529.png)
 5. Dateien per Drag and Drop bewegen
 ## 2. SCP direkt auf der lokalen Kommandoziele (Linux&MacOS)
 Dateien versenden:

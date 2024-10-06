@@ -1,4 +1,4 @@
-Der Key kann bei [[Termius statt PuTTY!|Termius]] einfach in Einstellungen > Keychain hinterlegt werden.
+Der Key kann bei [Termius](Termius%20statt%20PuTTY!.md) einfach in Einstellungen > Keychain hinterlegt werden.
 Bei Nutzung ohne Termius muss der Private-Key noch dem sogenannten "Agent" hinzugefügt werden:
 ## MacOS
 1. SSH-Agent starten

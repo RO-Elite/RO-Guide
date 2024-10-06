@@ -6,7 +6,7 @@ Public key und private key gehören zueinander; Das heißt, sie werden gleichzei
 Wir empfehlen wärmstens [Termius statt PuTTY!](Termius%20statt%20PuTTY!.md) wenn es allerdings unbedingt PuTTY sein muss, gibt es dazu ein Guide im Moodle.
 ## In Termius
 Termius kann keys schnell und einfach selbst erstellen.
-![[Pasted image 20240416141933.png]]
+![Pasted image 20240416141933](Pasted%20image%2020240416141933.png)
 ## Im Terminal
 1. Terminal öffnen / Git-Bash in Windows
 2. Key generieren
@@ -19,4 +19,4 @@ Dateinamen und Passphrase festlegen oder durch `ENTER` drücken überspringen
 cat DATEINAME.pub
 ```
 Diesen kopieren.
-5. [[Public SSH-Key beim TU-Server hinterlegen]]
+5. [Public SSH-Key beim TU-Server hinterlegen](Public%20SSH-Key%20beim%20TU-Server%20hinterlegen.md)

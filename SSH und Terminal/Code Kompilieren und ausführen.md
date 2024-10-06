@@ -1,4 +1,4 @@
-#tipps #bash
+#tipps
 
 Hier schauen wir einmal die gesamte Pipeline an für
 C-Code (.c) -> Assembly Code (.s) -> Objektdatei (.o) -> Binary
@@ -29,7 +29,7 @@ Im Folgenden werden wir mithilfe von einem Befehl unsere shortcuts in diese beid
 Ab dann lässt sich der Code mit einem kurzen Befehl kompilieren.
 
 > [!note] Hinweis
-> Wer sicher gehen will, kann hier [[bashrc.txt|hier]] sehen, wie diese beiden shortcuts funktionieren.
+> Wer sicher gehen will, kann hier [hier](bashrc.txt) sehen, wie diese beiden shortcuts funktionieren.
 #### Installation
 1. Mit dem SSH-Server verbinden
 2. Folgenden Befehl eintippen und auf enter drücken;
@@ -47,4 +47,4 @@ Assembly -> Binary
 roc meineDatei.c
 ````
 
-4. die entstandene Binary meineDatei ausführen (siehe [[Code Kompilieren und ausführen#Ausführen der Binary und Ausgeben von r0|hier]]).
+4. die entstandene Binary meineDatei ausführen (siehe [](Code%20Kompilieren%20und%20ausführen.md#Ausführen%20der%20Binary%20und%20Ausgeben%20von%20r0|hier)).
